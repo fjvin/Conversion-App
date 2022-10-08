@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.conversionapp.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.conversionapp.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_tutorialFragment"
+            app:destination="@id/tutorialFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tempConversionFragment"
+            app:destination="@id/tempConversionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.example.conversionapp.TutorialFragment"
+        android:label="TutorialFragment" />
+    <fragment
+        android:id="@+id/tempConversionFragment"
+        android:name="com.example.conversionapp.TempConversionFragment"
+        android:label="TempConversionFragment" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.conversionapp.QuizFragment"
+        android:label="QuizFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.conversionapp.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>

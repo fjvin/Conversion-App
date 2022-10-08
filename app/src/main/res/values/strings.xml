@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ConversionApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_profile">User Profile</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="round_up_value">Round-up value?</string>
+    <string name="resetBtn">Reset</string>
+    <string name="thermometer_logo">Thermometer Logo</string>
+    <string name="temperature_converter">Temperature Converter</string>
+    <string name="celsius_thermometer">Celcius Thermometer</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit_thermometer">Fahrenheit Thermometer</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="arrows">Arrows</string>
+    <string name="welcome">Welcome</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="conversion">Conversion</string>
+    <string name="quiz">Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="take_a_quiz">Take a Quiz</string>
+    <string name="about">About</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="q1">1. The scale of temperature in which water freezes at 0° and boils at 100° under standard conditions.</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="q2">2. Denoting a scale of temperature on which water freezes at 32° and boils at 212° under standard conditions</string>
+    <string name="q3">3. The SI base unit of thermodynamic temperature (equivalent in size to the degree Celsius)</string>
+    <string name="q4">4. What is 20°C in °F?</string>
+    <string name="q4_option_one">68.0°F</string>
+    <string name="q4_option_two">-5.0°F</string>
+    <string name="q4_option_three">32.0°F</string>
+    <string name="q5">5. What is -5.0°F in °C?</string>
+    <string name="q5_option_one">89.5°C</string>
+    <string name="q5_option_two">-20.5°C</string>
+    <string name="q5_option_three">10.0°C</string>
+    <string name="app_desc">This Kotlin-based Android Application is a Conversion App that allows users to convert temperature from Celsius to Fahrenheit and vice versa. The application as well have a quiz section where users can test their knowledge about Temperature unit conversion.</string>
+</resources>

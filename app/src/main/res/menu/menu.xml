@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/tutorialFragment"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            android:title="Tutorial"/>
+
+        <item
+            android:id="@+id/tempConversionFragment"
+            android:icon="@drawable/ic_baseline_ac_unit_24"
+            android:title="Conversion"/>
+
+        <item
+            android:id="@+id/quizFragment"
+            android:icon="@drawable/ic_baseline_analytics_24"
+            android:title="Quiz"/>
+    </group>
+
+    <item android:title="Developer">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aboutFragment"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="About"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
